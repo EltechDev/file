@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Расписание учебных занятий по Элективным дисциплинам по физической культуре и спорту",
+    "semester": "осенний семестр 2026/2027 уч.г.",
+    "source_file": "Расписание_для_студентов_старших_курсов.pdf"
+  },
+  "locations": [
+    {
+      "id": "avtozavodskaya",
+      "name": "СК на Автозаводской",
+      "address": "м. Автозаводская, ул. Автозаводская д. 16 стр. 2, 8й этаж"
+    },
+    {
+      "id": "mikhalkovskaya",
+      "name": "СК Михалковская",
+      "address": "МЦК Коптево, ул. Михалковская д.7 стр. 2"
+    },
+    {
+      "id": "vdnh_6",
+      "name": "Спортзал №6 м.ВДНХ",
+      "address": "ул. Бориса Галушкина д.9, 2й этаж"
+    },
+    {
+      "id": "vdnh_5",
+      "name": "Спортзал №5 м.ВДНХ",
+      "address": "ул. Павла Корчагина д.22, ауд. 102"
+    },
+    {
+      "id": "vdnh_7",
+      "name": "Спортзал №7 м.ВДНХ",
+      "address": "ул. Павла Корчагина д.22, ауд. 519"
+    },
+    {
+      "id": "elektro_2",
+      "name": "Спортзал №2 м. Электрозаводская",
+      "address": "ул. Большая Семеновская д.40 корп. Б, цокольный этаж"
+    },
+    {
+      "id": "elektro_3",
+      "name": "Спортзал №3 м. Электрозаводская",
+      "address": "ул. Малая Семеновская д.12"
+    },
+    {
+      "id": "elektro_1",
+      "name": "Спортзал №1 м. Электрозаводская",
+      "address": "ул. Большая Семеновская д.38 корп. А, ауд. 112"
+    }
+  ],
+  "schedule": [
+    {
+      "time_slot": "09:00 - 10:30",
+      "classes": [
+        {
+          "disciplines": ["баскетбол"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["волейбол"],
+          "location_ids": ["vdnh_6"]
+        },
+        {
+          "disciplines": ["пауэрлифтинг", "кроссфит"],
+          "location_ids": ["vdnh_5"]
+        },
+        {
+          "disciplines": ["ОФП"],
+          "location_ids": ["elektro_2", "elektro_3"]
+        }
+      ]
+    },
+    {
+      "time_slot": "10:40 - 12:10",
+      "classes": [
+        {
+          "disciplines": ["ОФП (тренажерный зал)"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["ОФП", "футзал"],
+          "location_ids": ["elektro_1"]
+        },
+        {
+          "disciplines": ["СМГ", "настольный теннис"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["СМГ", "аэробика"],
+          "location_ids": ["elektro_3", "vdnh_7"]
+        }
+      ]
+    },
+    {
+      "time_slot": "12:20 - 13:50",
+      "classes": [
+        {
+          "disciplines": ["ОФП"],
+          "location_ids": ["elektro_2", "elektro_3"]
+        },
+        {
+          "disciplines": ["ОФП (тренажерный зал)"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["ОФП", "футзал"],
+          "location_ids": ["elektro_1"]
+        },
+        {
+          "disciplines": ["СМГ", "настольный теннис"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["СМГ", "аэробика"],
+          "location_ids": ["elektro_3", "vdnh_7"]
+        }
+      ]
+    },
+    {
+      "time_slot": "14:30 - 16:00",
+      "classes": [
+        {
+          "disciplines": ["баскетбол"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["волейбол"],
+          "location_ids": ["vdnh_6"]
+        },
+        {
+          "disciplines": ["пауэрлифтинг", "кроссфит"],
+          "location_ids": ["vdnh_5"]
+        },
+        {
+          "disciplines": ["ОФП"],
+          "location_ids": ["elektro_2", "elektro_3"]
+        }
+      ]
+    },
+    {
+      "time_slot": "16:10 - 17:40",
+      "classes": [
+        {
+          "disciplines": ["ОФП (тренажерный зал)"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["ОФП", "футзал"],
+          "location_ids": ["elektro_1"]
+        },
+        {
+          "disciplines": ["СМГ", "настольный теннис"],
+          "location_ids": ["avtozavodskaya", "mikhalkovskaya"]
+        },
+        {
+          "disciplines": ["СМГ", "аэробика"],
+          "location_ids": ["elektro_3", "vdnh_7"]
+        }
+      ]
+    }
+  ]
+}
